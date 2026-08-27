@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.1.0"
+  version: "2.0.0"
   python_min: "3.11"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/altimetry-search/altimetry_search-${{ version }}.tar.gz
-  sha256: 8bfc41235fce6d03efcdf520c0fb7a5c6f70bf9ff2b6c11f36891df80cc6dd3c
+  sha256: cce300304fda8a6e86976e1fa8776c074be7a361b2450791d8d486fa5a5d9bb0
 
 build:
   number: 0
