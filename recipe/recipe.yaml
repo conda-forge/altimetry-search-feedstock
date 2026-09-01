@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "2.0.0"
+  version: "2.0.1"
   python_min: "3.11"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/altimetry-search/altimetry_search-${{ version }}.tar.gz
-  sha256: cce300304fda8a6e86976e1fa8776c074be7a361b2450791d8d486fa5a5d9bb0
+  sha256: d40486003826c8db0c1b5907c1692ac8f4262ec773080820abb1a00f6d98a770
 
 build:
   number: 0
@@ -29,6 +29,7 @@ requirements:
     - pandas
     - pyinterp
     - xarray
+    - requests
 
 tests:
   - python:
@@ -48,3 +49,4 @@ about:
 extra:
   recipe-maintainers:
     - annesophie-cls
+    - robin-cls
