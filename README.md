@@ -189,4 +189,5 @@ Feedstock Maintainers
 =====================
 
 * [@annesophie-cls](https://github.com/annesophie-cls/)
+* [@robin-cls](https://github.com/robin-cls/)
 
